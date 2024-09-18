@@ -13,13 +13,13 @@ The hero's hometown is suffering from a plague of monsters. Welling up from the 
 5. Locate the exit to the level - go to 1
 
 ## Minimum Viable Product
-1. ~Create a basic dungeon map~
-2. Place player and let them walk around
-3. Spawn monsters, draw them, and let the player kill them by walking into them
+1. ~~Create a basic dungeon map~~
+2. ~~Place player and let them walk around~~
+3. ~~Spawn monsters, draw them~~, and let the player kill them by walking into them
 4. Add health and a combat system that uses it
 5. Add healing potions
 6. Display a "Game Over" screen when the player dies
-7. Add the Amulet of Yala to the level and let the player win by reaching it
+7. Add the Amulet of Yala to the level a~d let the player win by reaching it
 
 ## Stretch Goals
 1. Add Fields-of-View
