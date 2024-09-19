@@ -8,7 +8,7 @@ The hero's hometown is suffering from a plague of monsters. Welling up from the 
 ## Basic Game Loops
 1. Enter the dungeon level
 2. Explore, revealing the map
-3. Encounter enemies whom the player fights of flees from
+3. Encounter enemies whom the player fights or flees from
 4. Find power-ups and use them to strengthen the player
 5. Locate the exit to the level - go to 1
 
