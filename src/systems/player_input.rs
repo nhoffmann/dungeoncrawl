@@ -3,6 +3,8 @@ use crate::prelude::*;
 #[system]
 #[write_component(Point)]
 #[read_component(Player)]
+#[read_component(Enemy)]
+#[write_component(Health)]
 pub fn player_input(
     ecs: &mut SubWorld,
     commands: &mut CommandBuffer,
@@ -26,6 +28,7 @@ pub fn player_input(
 
         let mut enemies = <(Entity, &Point)>::query().filter(component::<Enemy>());
 
+        let mut did_something = false;
         if delta.x != 0 || delta.y != 0 {
             let mut hit_something = false;
             enemies
@@ -40,6 +43,7 @@ pub fn player_input(
                             victim: *entity,
                         },
                     ));
+                    did_something = true;
                 });
 
             if !hit_something {
@@ -50,6 +54,16 @@ pub fn player_input(
                         destination,
                     },
                 ));
+                did_something = true;
+            }
+        }
+        if !did_something {
+            if let Ok(health) = ecs
+                .entry_mut(player_entity)
+                .unwrap()
+                .get_component_mut::<Health>()
+            {
+                health.current = i32::min(health.max, health.current + 1);
             }
         }
 
