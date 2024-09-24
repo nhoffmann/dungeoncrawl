@@ -17,7 +17,7 @@ The hero's hometown is suffering from a plague of monsters. Welling up from the 
 2. ~~Place player and let them walk around~~
 3. ~~Spawn monsters, draw them, make them walk around and let the player kill them by walking into them~~
 4. ~~Add health and a combat system that uses it~~
-5. Add healing potions
+5. ~~Add healing potions~~
 6. ~~Display a "Game Over" screen when the player dies~~
 7. ~~Add the Amulet of Yala to the level and let the player win by reaching it~~
 
