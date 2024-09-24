@@ -25,7 +25,7 @@ The hero's hometown is suffering from a plague of monsters. Welling up from the 
 1. ~~Add Fields-of-View~~q
 2. ~~Add more interesting dungeon designs~~
 3. ~~Add some dungeon themes~~
-4. Add multiple layers to the dungeon, with the Amulet on the last one
+4. ~~Add multiple layers to the dungeon, with the Amulet on the last one~~
 5. Add varied weapons to the game
 6. Move to a data-driven design for spawning enemies
 7. Consider some visual effects to make combat more visceral
